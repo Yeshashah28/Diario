@@ -1,0 +1,33 @@
+
+.journal-page h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #8b7e66;
+  margin-bottom: 10px;
+  font-family: Vivaldi;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.journal-page p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.postcard {
+  width: 450px;
+  height: 300px;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  background-color: #fff;
+}
+
+.postcard-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border:1px solid black;
+}
+

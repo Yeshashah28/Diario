@@ -1,0 +1,19 @@
+div.modal-content{
+    width: 80vw;
+    height: 80vh;
+}
+
+.newtitle{
+    height: 60px;
+    background-color: #fff3cd7d;
+    text-align: center;
+}
+
+textarea{
+    background-color: #fff3cd7d;
+}
+
+div.modal-buttons{
+    background-color: #fff3cd7d;
+    height: 50px;
+}

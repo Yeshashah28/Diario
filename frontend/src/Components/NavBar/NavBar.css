@@ -1,0 +1,52 @@
+.custom-navbar {
+  margin: 0 auto;
+  width: 80vw;
+  background-color: #8e7b57;
+  border-radius: 4px;
+  border: 1px solid black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 12px 24px;
+  font-family: Arial, sans-serif;
+  z-index:2;
+  margin-top:10px;
+}
+
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.buttons {
+  padding: 8px 16px;
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin:5px;
+}
+
+.add-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.view-button {
+  padding: 8px 16px;
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-button.active,
+.view-button:hover {
+  background-color: #000;
+  color: #fff;
+}
