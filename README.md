@@ -30,10 +30,4 @@ Welcome to **Diario**, a beautifully crafted journal app that brings your though
 
 ---
 
-## 🧭 How to Get Started
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/diario.git
-cd diario
