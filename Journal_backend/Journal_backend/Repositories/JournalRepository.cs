@@ -19,7 +19,7 @@ namespace Journal_backend.Repositories
         {
             var skip = (user.Page - 1) * user.Offset;
             var totalcount = await _context.JournalData.Where(x => x.Author == user.Name).CountAsync();
-            var journal_entries= await _context.JournalData.Where(x=>x.Author==user.Name).OrderBy(y=>y.CreatedAt).Skip(skip).Take(user.Offset).Select(x=>new JournalDto
+            var journal_entries= await _context.JournalData.Where(x=>x.Author==user.Name).OrderByDescending(y=>y.CreatedAt).Skip(skip).Take(user.Offset).Select(x=>new JournalDto
             {
                 Id=x.Id,
                 Title=x.Title,

@@ -23,7 +23,9 @@ const ViewJournal = () => {
           'Authorization':`Bearer ${ParsedInfo.token}`
         }
       });
-      setJournalEntries(res.data.data.data);
+
+      const sorteddata=res.data.data.data.sort((a,b)=>new Date(a.createdAt)-new Date(b.createdAt));
+      setJournalEntries(sorteddata);
       setAuthor(ParsedInfo.user.name);
     };
     fetchEntries();

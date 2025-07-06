@@ -38,3 +38,5 @@ obj/
 # app configuration
 appsettings.json
 appsettings.Development.json
+node_modules/
+.cache/
